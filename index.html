@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Abhishek Kumar — WordPress Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">AK.</a>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#about">About</a>
+  <a href="#contact" class="nav-cta">Hire Me</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+
+    <div class="hero-tag fade-up delay-1">Available for freelance &amp; full-time Role | Immediate Joiner</div>
+
+    <!-- Letter-animated heading — JS fills these two rows -->
+    <h1 class="hero-name" id="heroName">
+      <div class="word-row" id="row1"></div>
+      <div class="word-row line2" id="row2"></div>
+    </h1>
+
+    <p class="hero-desc fade-up delay-3">
+      WordPress Developer with 3.4+ years crafting custom themes, plugins, Gutenberg blocks, and full-stack web solutions. I turn complex requirements into fast, scalable, and pixel-perfect products.
+    </p>
+    <div class="hero-actions fade-up delay-4">
+      <a href="#projects" class="btn-primary">View Projects →</a>
+      <a href="mailto:abhishek15kumar04@gmail.com" class="btn-outline">Get In Touch</a>
+    </div>
+    <div class="hero-stats fade-up delay-5">
+      <div class="stat-item">
+        <div class="stat-num">3.4+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">10+</div>
+        <div class="stat-label">Projects Delivered</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">4+</div>
+        <div class="stat-label">Custom Plugins</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Client Satisfaction</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label reveal">Technical Stack</div>
+  <h2 class="section-title reveal">What I Work With</h2>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <div class="skill-cat">Frontend</div>
+      <div class="skill-list">
+        <span class="skill-tag">HTML5</span>
+        <span class="skill-tag">CSS3</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">jQuery</span>
+        <span class="skill-tag">React.js</span>
+        <span class="skill-tag">Bootstrap</span>
+        <span class="skill-tag">Tailwind</span>
+        <span class="skill-tag">Responsive Design</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Backend &amp; CMS</div>
+      <div class="skill-list">
+        <span class="skill-tag">PHP</span>
+        <span class="skill-tag">WordPress</span>
+        <span class="skill-tag">Custom Themes</span>
+        <span class="skill-tag">Custom Plugins</span>
+        <span class="skill-tag">Gutenberg Blocks</span>
+        <span class="skill-tag">WooCommerce</span>
+        <span class="skill-tag">REST API</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">State &amp; Data</div>
+      <div class="skill-list">
+        <span class="skill-tag">Zustand</span>
+        <span class="skill-tag">TanStack Query</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">AJAX</span>
+        <span class="skill-tag">Recharts</span>
+        <span class="skill-tag">React Memo</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Tools &amp; Other</div>
+      <div class="skill-list">
+        <span class="skill-tag">Git &amp; GitHub</span>
+        <span class="skill-tag">CI/CD</span>
+        <span class="skill-tag">VS Code</span>
+        <span class="skill-tag">cPanel</span>
+        <span class="skill-tag">npm</span>
+        <span class="skill-tag">SEO Optimization</span>
+        <span class="skill-tag">Performance</span>
+        <span class="skill-tag">Cross-Browser</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-label reveal">Career</div>
+  <h2 class="section-title reveal">Work Experience</h2>
+  <div class="exp-block reveal">
+    <div class="exp-meta">
+      <div class="exp-company">Hestabit</div>
+      <div class="exp-date">Jan 2023 — May 2026</div>
+      <div class="exp-role">Associate Software Engineer — WordPress + React.js</div>
+    </div>
+    <div class="exp-body">
+      <ul class="exp-points">
+        <li>Developed custom WordPress themes and plugins from scratch for diverse client requirements.</li>
+        <li>Built interactive Gutenberg blocks using React.js for a modern block-based editing experience.</li>
+        <li>Customized WooCommerce workflows including cart logic, checkout, and payment flows.</li>
+        <li>Created responsive UIs using HTML, CSS, JavaScript, and jQuery across devices.</li>
+        <li>Improved website performance significantly through optimization techniques, earning direct client appreciation.</li>
+        <li>Integrated third-party APIs and custom REST endpoints for dynamic functionality.</li>
+        <li>Built Login with Instagram plugin — utilizing public profile OAuth via Meta's allowed scope.</li>
+        <li>Developed a distance-based shipping plugin for Abax that dynamically shows "Add to Cart" or "Get Quote" button based on user's location proximity.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label reveal">Work</div>
+  <h2 class="section-title reveal">Featured Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-num">01 / E-Commerce</div>
+      <div class="project-name">Abax Kingfisher</div>
+      <div class="project-stack">
+        <span class="stack-tag">WordPress</span><span class="stack-tag">PHP</span>
+        <span class="stack-tag">WooCommerce</span><span class="stack-tag">REST API</span>
+        <span class="stack-tag">JavaScript</span>
+      </div>
+      <p class="project-desc">Full custom WordPress e-commerce platform built end-to-end — from landing page to checkout.</p>
+      <ul class="project-highlights">
+        <li>Flexible Cart / Quote hybrid checkout system per product</li>
+        <li>Distance-based shipping plugin — shows Add to Cart or Get Quote by location</li>
+        <li>CSV bulk product importer for catalog management</li>
+        <li>Custom Login, Registration &amp; Auth via REST API</li>
+        <li>Advanced speed optimization for high performance</li>
+      </ul>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">02 / SaaS Tool</div>
+      <div class="project-name">ClearView Admin</div>
+      <div class="project-stack">
+        <span class="stack-tag">React.js</span><span class="stack-tag">Tailwind</span>
+        <span class="stack-tag">Zustand</span><span class="stack-tag">TanStack Query</span>
+        <span class="stack-tag">Recharts</span>
+      </div>
+      <p class="project-desc">Multi-section admin panel with real-time analytics, optimized rendering, and smooth UX.</p>
+      <ul class="project-highlights">
+        <li>Isolated scroll containers → ~40% workflow efficiency gain</li>
+        <li>Real-time analytics dashboards via Recharts</li>
+        <li>Server-state management with TanStack Query caching</li>
+        <li>React.memo + useMemo reduced re-renders by ~25%</li>
+      </ul>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">03 / Plugin</div>
+      <div class="project-name">Smart ChatBot</div>
+      <div class="project-stack">
+        <span class="stack-tag">WordPress</span><span class="stack-tag">PHP</span>
+        <span class="stack-tag">Instagram API</span><span class="stack-tag">CPT</span>
+        <span class="stack-tag">JavaScript</span>
+      </div>
+      <p class="project-desc">Custom WordPress chatbot with Instagram OAuth login, FAQ automation, and admin transcripts.</p>
+      <ul class="project-highlights">
+        <li>Login with Instagram integration (public profile scope)</li>
+        <li>FAQ Custom Post Type for dynamic Q&amp;A responses</li>
+        <li>Inactivity detection (3 min idle) for better flow control</li>
+        <li>Automated chat transcript delivery to admin</li>
+      </ul>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">04 / Govt. Portal</div>
+      <div class="project-name">Mahamaya Stadium</div>
+      <div class="project-stack">
+        <span class="stack-tag">WordPress</span><span class="stack-tag">Elementor</span>
+        <span class="stack-tag">PayPal API</span><span class="stack-tag">AJAX</span>
+        <span class="stack-tag">PHP</span>
+      </div>
+      <p class="project-desc">UP Government stadium booking portal with real-time slot listing and payment integration.</p>
+      <ul class="project-highlights">
+        <li>AJAX-based real-time slot availability listing</li>
+        <li>PayPal gateway integration for online booking</li>
+        <li>Custom user registration, login &amp; forgot password</li>
+        <li>Email notification templates for confirmations</li>
+      </ul>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">05 / Plugin</div>
+      <div class="project-name">Instagram Auth Plugin</div>
+      <div class="project-stack">
+        <span class="stack-tag">WordPress</span><span class="stack-tag">PHP</span>
+        <span class="stack-tag">Meta API</span><span class="stack-tag">OAuth 2.0</span>
+      </div>
+      <p class="project-desc">Standalone WordPress plugin for Login with Instagram — within Meta's public profile scope.</p>
+      <ul class="project-highlights">
+        <li>OAuth 2.0 flow with Meta's Instagram Graph API</li>
+        <li>Captures public profile data for user onboarding</li>
+        <li>Secure token handling &amp; WP user mapping</li>
+        <li>Drop-in shortcode for easy integration</li>
+      </ul>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">06 / Plugin</div>
+      <div class="project-name">Distance Shipping Plugin</div>
+      <div class="project-stack">
+        <span class="stack-tag">WordPress</span><span class="stack-tag">WooCommerce</span>
+        <span class="stack-tag">PHP</span><span class="stack-tag">Maps API</span>
+        <span class="stack-tag">AJAX</span>
+      </div>
+      <p class="project-desc">WooCommerce plugin that toggles Add to Cart or Get Quote based on user's distance from store.</p>
+      <ul class="project-highlights">
+        <li>Detects user location via browser Geolocation API</li>
+        <li>Calculates distance to configured store origin</li>
+        <li>Dynamically toggles between buy and quote modes</li>
+        <li>Admin panel to set radius threshold per product</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label reveal">About</div>
+  <h2 class="section-title reveal">A Bit About Me</h2>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm Abhishek Kumar, a WordPress developer based in Noida with 3.4+ years of hands-on experience building custom, performance-driven web solutions. My work spans from pixel-perfect frontend UIs to robust backend plugin development.</p>
+      <p>I specialize in custom WordPress plugin development — I've built everything from Instagram OAuth login systems to distance-based WooCommerce shipping plugins. I care deeply about code quality, website speed, and delivering things that actually work for end users.</p>
+      <p>Beyond WordPress, I'm comfortable in React.js for complex UI work — admin dashboards, state management, and real-time data visualization. I hold a B.Tech from VIT Vellore, and I'm always looking to grow and take on challenging projects.</p>
+    </div>
+    <div>
+      <div class="edu-card reveal">
+        <div class="edu-school">Vellore Institute of Technology</div>
+        <div class="edu-degree">B.Tech — Mechanical Engineering</div>
+        <div class="edu-meta">CGPA: 7.67 &nbsp;·&nbsp; July 2018 – Aug 2022 &nbsp;·&nbsp; Vellore, Tamil Nadu</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-label reveal" style="justify-content:center;">Let's Connect</div>
+    <h2 class="section-title reveal">Got a Project<br>in Mind?</h2>
+    <p class="contact-desc reveal">Whether it's a WordPress build, plugin development, or a React-powered interface — I'm open to freelance and full-time opportunities. Let's build something great together.</p>
+    <div class="contact-links reveal">
+      <a href="mailto:abhishek15kumar04@gmail.com" class="contact-link">✉ abhishek15kumar04@gmail.com</a>
+      <a href="tel:+918287787553" class="contact-link">☎ +91 82877 87553</a>
+      <a href="https://linkedin.com/in/in-abhishek" target="_blank" class="contact-link">↗ LinkedIn</a>
+    </div>
+    <a href="mailto:abhishek15kumar04@gmail.com" class="btn-primary reveal" style="display:inline-flex;justify-content:center;">Send Me a Message →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">© 2026 <span>Abhishek Kumar</span> — All rights reserved.</div>
+</footer>
+
+<script src="./index.js"></script>
+</body>
+</html>
